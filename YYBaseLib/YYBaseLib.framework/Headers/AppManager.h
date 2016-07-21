@@ -15,8 +15,6 @@
 
 @property (nonatomic, strong) UsersModel *userInfo;
 
-@property (nonatomic, copy ,readonly) NSString *userId;
-
 @property (nonatomic, strong) NSMutableArray         *cityList;                 //城市列表
 @property (nonatomic, strong) NSMutableArray         *categoryList;             //技能列表
 @property (nonatomic, strong) NSMutableArray         *consultGradeList;         //咨询师等级列表
