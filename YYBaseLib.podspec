@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'YYBaseLib'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/chuanxiaoshi/YYBaseLib'
   spec.authors      = { 'chuanxiaoshi' => '13466932727@163.com' }
