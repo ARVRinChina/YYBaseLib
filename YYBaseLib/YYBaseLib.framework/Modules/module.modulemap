@@ -1,6 +1,0 @@
-framework module YYBaseLib {
-  umbrella header "YYBaseLib.h"
-
-  export *
-  module * { export * }
-}
