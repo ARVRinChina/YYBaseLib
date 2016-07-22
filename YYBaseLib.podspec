@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/chuanxiaoshi/YYBaseLib.git', :tag =>'1.0.9'  }
   spec.platform     = :ios, '8.0'
   spec.source_files = 'YYBaseLib/**/*.{h,m}'
-  spec.resource     = 'YYBaseLib/YYBaseLib.bundle'
+
 
   spec.framework    = 'SystemConfiguration'
   spec.dependency 'AFNetworking', '~> 2.0'
