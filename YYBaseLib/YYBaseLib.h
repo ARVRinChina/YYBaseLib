@@ -36,7 +36,7 @@
 #import "AuthService.h"
 #import "AppManager.h"
 #import "ApiService.h"
-#import "GTMBase64.h"
+//#import "GTMBase64.h"
 #import "GTMDefines.h"
 #import "ConsultGradeModel.h"
 #import "CategoryModel.h"

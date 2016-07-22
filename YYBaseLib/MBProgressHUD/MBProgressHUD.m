@@ -157,7 +157,7 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 //自动显示隐藏
 + (void)autoShowWithMsg:(NSString *)msg customView:(UIView *)customView
 {
-    UILabel *lbl = [[[UILabel alloc]initWithFrame:CGRectMake(0, 0, 220, 20)]autorelease];
+    UILabel *lbl = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 220, 20)];
     lbl.numberOfLines = 0;
     lbl.font = [UIFont boldSystemFontOfSize:kLabelFontSize];
     lbl.backgroundColor = [UIColor clearColor];
@@ -178,7 +178,7 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
     [progressHUD show:YES];
     [progressHUD hide:YES afterDelay:2.f];
 //    [self performSelector:@selector(hideProgressHud) withObject:self afterDelay:0.5];
-    [progressHUD release];
+
 }
 //-(void)hideProgressHud
 //{

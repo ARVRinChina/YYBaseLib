@@ -39,14 +39,6 @@
 		5695D6AF1D3E28C000AFCC92 /* DataVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D65E1D3E28C000AFCC92 /* DataVerify.m */; };
 		5695D6B01D3E28C000AFCC92 /* FSMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6601D3E28C000AFCC92 /* FSMediaPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5695D6B11D3E28C000AFCC92 /* FSMediaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6611D3E28C000AFCC92 /* FSMediaPicker.m */; };
-		5695D6B21D3E28C000AFCC92 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6631D3E28C000AFCC92 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5695D6B31D3E28C000AFCC92 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6641D3E28C000AFCC92 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5695D6B41D3E28C000AFCC92 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6651D3E28C000AFCC92 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5695D6B51D3E28C000AFCC92 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6661D3E28C000AFCC92 /* README.md */; };
-		5695D6B61D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6681D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5695D6B71D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6691D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m */; };
-		5695D6B81D3E28C000AFCC92 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D66A1D3E28C000AFCC92 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5695D6B91D3E28C000AFCC92 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D66B1D3E28C000AFCC92 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5695D6BA1D3E28C000AFCC92 /* CategoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D66D1D3E28C000AFCC92 /* CategoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5695D6BB1D3E28C000AFCC92 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D66E1D3E28C000AFCC92 /* CategoryModel.m */; };
 		5695D6BC1D3E28C000AFCC92 /* CityModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D66F1D3E28C000AFCC92 /* CityModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,6 +100,10 @@
 		56D0F44F1D3F17370008619C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0F44D1D3F17370008619C /* BaseViewController.m */; };
 		56D0F4BD1D3F20960008619C /* AppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D0F4BB1D3F20960008619C /* AppManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56D0F4BE1D3F20960008619C /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0F4BC1D3F20960008619C /* AppManager.m */; };
+		58207CA61D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 58207CA21D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.h */; };
+		58207CA71D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 58207CA31D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.m */; };
+		58207CA81D421F800026DB86 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 58207CA41D421F800026DB86 /* MBProgressHUD.h */; };
+		58207CA91D421F800026DB86 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 58207CA51D421F800026DB86 /* MBProgressHUD.m */; };
 		AADF825B1487CA94E0D04BFC /* libPods-YYBaseLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D91632A2C28E3B40E859EFBF /* libPods-YYBaseLib.a */; };
 /* End PBXBuildFile section */
 
@@ -132,14 +128,6 @@
 		5695D65E1D3E28C000AFCC92 /* DataVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVerify.m; sourceTree = "<group>"; };
 		5695D6601D3E28C000AFCC92 /* FSMediaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMediaPicker.h; sourceTree = "<group>"; };
 		5695D6611D3E28C000AFCC92 /* FSMediaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMediaPicker.m; sourceTree = "<group>"; };
-		5695D6631D3E28C000AFCC92 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		5695D6641D3E28C000AFCC92 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		5695D6651D3E28C000AFCC92 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		5695D6661D3E28C000AFCC92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5695D6681D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MBProgressHUD_Category.h"; sourceTree = "<group>"; };
-		5695D6691D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MBProgressHUD_Category.m"; sourceTree = "<group>"; };
-		5695D66A1D3E28C000AFCC92 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		5695D66B1D3E28C000AFCC92 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		5695D66D1D3E28C000AFCC92 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
 		5695D66E1D3E28C000AFCC92 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
 		5695D66F1D3E28C000AFCC92 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
@@ -201,6 +189,10 @@
 		56D0F44D1D3F17370008619C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		56D0F4BB1D3F20960008619C /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
 		56D0F4BC1D3F20960008619C /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		58207CA21D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MBProgressHUD_Category.h"; sourceTree = "<group>"; };
+		58207CA31D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MBProgressHUD_Category.m"; sourceTree = "<group>"; };
+		58207CA41D421F800026DB86 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		58207CA51D421F800026DB86 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B8468141017D91B1C8726C48 /* Pods-YYBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYBaseLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYBaseLib/Pods-YYBaseLib.release.xcconfig"; sourceTree = "<group>"; };
 		D91632A2C28E3B40E859EFBF /* libPods-YYBaseLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYBaseLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE88D6C3F34FD9141CC9103 /* Pods-YYBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYBaseLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYBaseLib/Pods-YYBaseLib.debug.xcconfig"; sourceTree = "<group>"; };
@@ -253,11 +245,10 @@
 				5695D6491D3E287000AFCC92 /* PopupBaseView.m */,
 				56D0F44C1D3F17370008619C /* BaseViewController.h */,
 				56D0F44D1D3F17370008619C /* BaseViewController.m */,
+				58207CA11D421F800026DB86 /* MBProgressHUD */,
 				5695D6571D3E28C000AFCC92 /* AFOAuth2Manager */,
 				5695D65C1D3E28C000AFCC92 /* DataVerify */,
 				5695D65F1D3E28C000AFCC92 /* FSMediaPicker */,
-				5695D6621D3E28C000AFCC92 /* GTMBase64 */,
-				5695D6671D3E28C000AFCC92 /* MBProgressHUD */,
 				5695D66C1D3E28C000AFCC92 /* Model */,
 				5695D6781D3E28C000AFCC92 /* NS_Extensions */,
 				5695D6871D3E28C000AFCC92 /* SDCycleScrollView */,
@@ -294,28 +285,6 @@
 				5695D6611D3E28C000AFCC92 /* FSMediaPicker.m */,
 			);
 			path = FSMediaPicker;
-			sourceTree = "<group>";
-		};
-		5695D6621D3E28C000AFCC92 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				5695D6631D3E28C000AFCC92 /* GTMBase64.h */,
-				5695D6641D3E28C000AFCC92 /* GTMBase64.m */,
-				5695D6651D3E28C000AFCC92 /* GTMDefines.h */,
-				5695D6661D3E28C000AFCC92 /* README.md */,
-			);
-			path = GTMBase64;
-			sourceTree = "<group>";
-		};
-		5695D6671D3E28C000AFCC92 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				5695D6681D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h */,
-				5695D6691D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m */,
-				5695D66A1D3E28C000AFCC92 /* MBProgressHUD.h */,
-				5695D66B1D3E28C000AFCC92 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		5695D66C1D3E28C000AFCC92 /* Model */ = {
@@ -411,6 +380,17 @@
 			path = UI_Extensions;
 			sourceTree = "<group>";
 		};
+		58207CA11D421F800026DB86 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				58207CA21D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.h */,
+				58207CA31D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.m */,
+				58207CA41D421F800026DB86 /* MBProgressHUD.h */,
+				58207CA51D421F800026DB86 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		E70AA3B378820A8A942D715F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,7 +416,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5695D6CB1D3E28C000AFCC92 /* NSObject_Extensions.h in Headers */,
-				5695D6B61D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h in Headers */,
 				5695D6BE1D3E28C000AFCC92 /* ConsultGradeModel.h in Headers */,
 				5695D6E51D3E28C000AFCC92 /* UIColor_Extensions.h in Headers */,
 				5695D64A1D3E287000AFCC92 /* AppConfig.h in Headers */,
@@ -451,16 +430,14 @@
 				5695D6301D3E278900AFCC92 /* YYBaseLib.h in Headers */,
 				5695D6BC1D3E28C000AFCC92 /* CityModel.h in Headers */,
 				5695D6E91D3E28C000AFCC92 /* UIImage+UIImageScale.h in Headers */,
+				58207CA81D421F800026DB86 /* MBProgressHUD.h in Headers */,
 				5695D6C01D3E28C000AFCC92 /* EnumModel.h in Headers */,
 				5695D6C31D3E28C000AFCC92 /* UsersModel.h in Headers */,
 				5695D6ED1D3E28C000AFCC92 /* UITextView+Placeholder.h in Headers */,
 				5695D6CF1D3E28C000AFCC92 /* UIImageExtentions.h in Headers */,
 				5695D6E71D3E28C000AFCC92 /* UIImage+UIImage.h in Headers */,
 				5695D6BA1D3E28C000AFCC92 /* CategoryModel.h in Headers */,
-				5695D6B81D3E28C000AFCC92 /* MBProgressHUD.h in Headers */,
 				5695D6EB1D3E28C000AFCC92 /* UITableView+FDTemplateLayoutCell.h in Headers */,
-				5695D6B21D3E28C000AFCC92 /* GTMBase64.h in Headers */,
-				5695D6B41D3E28C000AFCC92 /* GTMDefines.h in Headers */,
 				5695D6F11D3E28C000AFCC92 /* UIView+Masonry.h in Headers */,
 				5695D6EF1D3E28C000AFCC92 /* UIView+extensions.h in Headers */,
 				5695D64B1D3E287000AFCC92 /* ApiService.h in Headers */,
@@ -473,6 +450,7 @@
 				5695D6551D3E287000AFCC92 /* PopupBaseView.h in Headers */,
 				5695D6AA1D3E28C000AFCC92 /* AFOAuth2Manager.h in Headers */,
 				5695D6DB1D3E28C000AFCC92 /* TAPageControl.h in Headers */,
+				58207CA61D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.h in Headers */,
 				5695D6AC1D3E28C000AFCC92 /* AFOAuth2RequestSerializer.h in Headers */,
 				5695D6DD1D3E28C000AFCC92 /* SDCollectionViewCell.h in Headers */,
 				5695D6D71D3E28C000AFCC92 /* TAAnimatedDotView.h in Headers */,
@@ -609,12 +587,12 @@
 				5695D6501D3E287000AFCC92 /* AuthService.m in Sources */,
 				56D0F4BE1D3F20960008619C /* AppManager.m in Sources */,
 				5695D6541D3E287000AFCC92 /* CommonTool.m in Sources */,
+				58207CA91D421F800026DB86 /* MBProgressHUD.m in Sources */,
 				5695D6BF1D3E28C000AFCC92 /* ConsultGradeModel.m in Sources */,
 				5695D6F01D3E28C000AFCC92 /* UIView+extensions.m in Sources */,
 				5695D6E01D3E28C000AFCC92 /* SDCycleScrollView.m in Sources */,
 				5695D6EA1D3E28C000AFCC92 /* UIImage+UIImageScale.m in Sources */,
 				5695D6C21D3E28C000AFCC92 /* MenuModel.m in Sources */,
-				5695D6B31D3E28C000AFCC92 /* GTMBase64.m in Sources */,
 				5695D6C61D3E28C000AFCC92 /* NSDataAdditions.m in Sources */,
 				5695D6E61D3E28C000AFCC92 /* UIColor_Extensions.m in Sources */,
 				5695D6CA1D3E28C000AFCC92 /* NSDictionary_Extensions.m in Sources */,
@@ -627,9 +605,7 @@
 				5695D6DC1D3E28C000AFCC92 /* TAPageControl.m in Sources */,
 				5695D6DE1D3E28C000AFCC92 /* SDCollectionViewCell.m in Sources */,
 				5695D6AF1D3E28C000AFCC92 /* DataVerify.m in Sources */,
-				5695D6B71D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m in Sources */,
 				5695D6EE1D3E28C000AFCC92 /* UITextView+Placeholder.m in Sources */,
-				5695D6B51D3E28C000AFCC92 /* README.md in Sources */,
 				5695D6D61D3E28C000AFCC92 /* TAAbstractDotView.m in Sources */,
 				5695D6CE1D3E28C000AFCC92 /* NSString_Extensions.m in Sources */,
 				5695D6F21D3E28C000AFCC92 /* UIView+Masonry.m in Sources */,
@@ -637,12 +613,12 @@
 				5695D6EC1D3E28C000AFCC92 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				5695D6AD1D3E28C000AFCC92 /* AFOAuth2RequestSerializer.m in Sources */,
 				5695D64C1D3E287000AFCC92 /* ApiService.m in Sources */,
+				58207CA71D421F800026DB86 /* MBProgressHUD+MBProgressHUD_Category.m in Sources */,
 				5695D6561D3E287000AFCC92 /* PopupBaseView.m in Sources */,
 				5695D6E81D3E28C000AFCC92 /* UIImage+UIImage.m in Sources */,
 				5695D6C41D3E28C000AFCC92 /* UsersModel.m in Sources */,
 				5695D6BB1D3E28C000AFCC92 /* CategoryModel.m in Sources */,
 				5695D6D21D3E28C000AFCC92 /* UILabel_Extensions.m in Sources */,
-				5695D6B91D3E28C000AFCC92 /* MBProgressHUD.m in Sources */,
 				5695D6D81D3E28C000AFCC92 /* TAAnimatedDotView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

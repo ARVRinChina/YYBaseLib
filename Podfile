@@ -12,6 +12,8 @@ target 'YYBaseLib' do
     pod 'Masonry', '~> 0.6.3'
     pod 'YYModel'
     pod 'MJRefresh'
+#    pod 'GTMBase64'
+#    pod 'MBProgressHUD'
     #pod 'UMengSocialCOM', '~> 5.2.1'
     #pod 'UMengAnalytics'
     #pod 'MMPlaceHolder'

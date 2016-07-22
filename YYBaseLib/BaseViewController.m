@@ -144,7 +144,7 @@
 //自定义左边按钮返回回调
 - (void)backBtnSelected:(UIButton *)button
 {
-    [MBProgressHUD hideMessage];
+//    [MBProgressHUD hideMessage];
     if(self.callback)
         self.callback(self);
     [self.navigationController popViewControllerAnimated:YES];
