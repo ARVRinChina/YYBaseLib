@@ -39,10 +39,6 @@
 		5695D6AF1D3E28C000AFCC92 /* DataVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D65E1D3E28C000AFCC92 /* DataVerify.m */; };
 		5695D6B01D3E28C000AFCC92 /* FSMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6601D3E28C000AFCC92 /* FSMediaPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5695D6B11D3E28C000AFCC92 /* FSMediaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6611D3E28C000AFCC92 /* FSMediaPicker.m */; };
-		5695D6B21D3E28C000AFCC92 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6631D3E28C000AFCC92 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5695D6B31D3E28C000AFCC92 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6641D3E28C000AFCC92 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5695D6B41D3E28C000AFCC92 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6651D3E28C000AFCC92 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5695D6B51D3E28C000AFCC92 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6661D3E28C000AFCC92 /* README.md */; };
 		5695D6B61D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D6681D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5695D6B71D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5695D6691D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m */; };
 		5695D6B81D3E28C000AFCC92 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5695D66A1D3E28C000AFCC92 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -132,10 +128,6 @@
 		5695D65E1D3E28C000AFCC92 /* DataVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVerify.m; sourceTree = "<group>"; };
 		5695D6601D3E28C000AFCC92 /* FSMediaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMediaPicker.h; sourceTree = "<group>"; };
 		5695D6611D3E28C000AFCC92 /* FSMediaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMediaPicker.m; sourceTree = "<group>"; };
-		5695D6631D3E28C000AFCC92 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		5695D6641D3E28C000AFCC92 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		5695D6651D3E28C000AFCC92 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		5695D6661D3E28C000AFCC92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5695D6681D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MBProgressHUD_Category.h"; sourceTree = "<group>"; };
 		5695D6691D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MBProgressHUD_Category.m"; sourceTree = "<group>"; };
 		5695D66A1D3E28C000AFCC92 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -256,7 +248,6 @@
 				5695D6571D3E28C000AFCC92 /* AFOAuth2Manager */,
 				5695D65C1D3E28C000AFCC92 /* DataVerify */,
 				5695D65F1D3E28C000AFCC92 /* FSMediaPicker */,
-				5695D6621D3E28C000AFCC92 /* GTMBase64 */,
 				5695D6671D3E28C000AFCC92 /* MBProgressHUD */,
 				5695D66C1D3E28C000AFCC92 /* Model */,
 				5695D6781D3E28C000AFCC92 /* NS_Extensions */,
@@ -294,17 +285,6 @@
 				5695D6611D3E28C000AFCC92 /* FSMediaPicker.m */,
 			);
 			path = FSMediaPicker;
-			sourceTree = "<group>";
-		};
-		5695D6621D3E28C000AFCC92 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				5695D6631D3E28C000AFCC92 /* GTMBase64.h */,
-				5695D6641D3E28C000AFCC92 /* GTMBase64.m */,
-				5695D6651D3E28C000AFCC92 /* GTMDefines.h */,
-				5695D6661D3E28C000AFCC92 /* README.md */,
-			);
-			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 		5695D6671D3E28C000AFCC92 /* MBProgressHUD */ = {
@@ -459,8 +439,6 @@
 				5695D6BA1D3E28C000AFCC92 /* CategoryModel.h in Headers */,
 				5695D6B81D3E28C000AFCC92 /* MBProgressHUD.h in Headers */,
 				5695D6EB1D3E28C000AFCC92 /* UITableView+FDTemplateLayoutCell.h in Headers */,
-				5695D6B21D3E28C000AFCC92 /* GTMBase64.h in Headers */,
-				5695D6B41D3E28C000AFCC92 /* GTMDefines.h in Headers */,
 				5695D6F11D3E28C000AFCC92 /* UIView+Masonry.h in Headers */,
 				5695D6EF1D3E28C000AFCC92 /* UIView+extensions.h in Headers */,
 				5695D64B1D3E287000AFCC92 /* ApiService.h in Headers */,
@@ -614,7 +592,6 @@
 				5695D6E01D3E28C000AFCC92 /* SDCycleScrollView.m in Sources */,
 				5695D6EA1D3E28C000AFCC92 /* UIImage+UIImageScale.m in Sources */,
 				5695D6C21D3E28C000AFCC92 /* MenuModel.m in Sources */,
-				5695D6B31D3E28C000AFCC92 /* GTMBase64.m in Sources */,
 				5695D6C61D3E28C000AFCC92 /* NSDataAdditions.m in Sources */,
 				5695D6E61D3E28C000AFCC92 /* UIColor_Extensions.m in Sources */,
 				5695D6CA1D3E28C000AFCC92 /* NSDictionary_Extensions.m in Sources */,
@@ -629,7 +606,6 @@
 				5695D6AF1D3E28C000AFCC92 /* DataVerify.m in Sources */,
 				5695D6B71D3E28C000AFCC92 /* MBProgressHUD+MBProgressHUD_Category.m in Sources */,
 				5695D6EE1D3E28C000AFCC92 /* UITextView+Placeholder.m in Sources */,
-				5695D6B51D3E28C000AFCC92 /* README.md in Sources */,
 				5695D6D61D3E28C000AFCC92 /* TAAbstractDotView.m in Sources */,
 				5695D6CE1D3E28C000AFCC92 /* NSString_Extensions.m in Sources */,
 				5695D6F21D3E28C000AFCC92 /* UIView+Masonry.m in Sources */,
@@ -750,7 +726,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = YYBaseLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
@@ -770,7 +746,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = YYBaseLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = YYBaseLib;

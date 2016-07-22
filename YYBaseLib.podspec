@@ -8,8 +8,11 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/chuanxiaoshi/YYBaseLib.git', :tag =>'1.0.4'  }
   spec.source_files = 'YYBaseLib/**/*.{h,m}'
   spec.resource     = 'YYBaseLib/YYBaseLib.bundle'
-  spec.requires_arc = true
+  spec.platform     = :ios, '8.0'
   spec.framework    = 'SystemConfiguration'
  spec.dependency 'AFNetworking', '~> 2.0'
- 
+  spec.dependency 'Masonry'
+ spec.dependency 'YYModel'
+ spec.dependency 'MJRefresh'
+ spec.dependency 'SDWebImage'
 end
