@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'YYBaseLib/**/*.{h,m}'
 
 
-  spec.framework    = 'SystemConfiguration'
+  spec.frameworks   = 'UIKit','AVFoundation','Foundation'
   spec.dependency 'AFNetworking', '~> 2.0'
   spec.dependency 'Masonry'
   spec.dependency 'YYModel'
