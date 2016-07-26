@@ -18,7 +18,7 @@
 #import "MJRefresh.h"
 #import <MapKit/MapKit.h>
 #import "ApiService.h"
-//#import "NSString_Extensions.h"
+#import "NSString_Extensions.h"
 #import "YYModel.h"
 
 @class BaseViewController;
